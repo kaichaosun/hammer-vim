@@ -2,6 +2,11 @@
 
 Special thanks to [Hammerspoon](http://www.hammerspoon.org/).
 
+* [Setup](#setup)
+  * [Install Hammerspoon](#install-hammerspoon)
+  * [Install Hammer-Vim](#install-hammer-vim)
+  * [Add Softlink](#add-softlink)
+  * [Load config](#load-config)
 ## Setup
 ### Install Hammerspoon
 Download the latest release [here](https://github.com/Hammerspoon/hammerspoon/releases/), extract the app to `Applications` folder.
