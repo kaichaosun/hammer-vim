@@ -21,5 +21,14 @@ Clone this repo with `git clone git@github.com:dashengSun/hammer-vim.git` to you
 ### Load config 
 Right click Hammerspoon application then `Open`, press `Shift + Cmd + R` to reload config.
 
-Enjoy your journey to Hammer-vim
+Now, you can navigate with `Ctrl + J`, `Ctrl + K` in Preview, Slack, etc, enjoy your journey to Hammer-vim.
+
+## Features
+* Move up: `Ctrl + K`
+* Move down: `Ctrl + J`
+
+## Design thoughts
+### `Ctrl` as primary key
+`Caps Lock` is actually useless, so I map it over to `Ctrl` with `System Preference -> Keyboard -> Modifier Keys`, makes `Ctrl` reachable even I have fat fingers.
+
 
