@@ -3,10 +3,16 @@
 Special thanks to [Hammerspoon](http://www.hammerspoon.org/).
 
 * [Setup](#setup)
-  * [Install Hammerspoon](#install-hammerspoon)
-  * [Install Hammer-Vim](#install-hammer-vim)
-  * [Add Softlink](#add-softlink)
-  * [Load config](#load-config)
+   * [Install Hammerspoon](#install-hammerspoon)
+   * [Install Hammer-Vim](#install-hammer-vim)
+   * [Add Softlink](#add-softlink)
+   * [Load config](#load-config)
+* [Features](#features)
+   * [Vim like commands](#vim-like-commands)
+   * [Utility commands](#utility-commands)
+* [Design thoughts](#design-thoughts)
+   * [Ctrl as primary key](#ctrl-as-primary-key)
+
 ## Setup
 ### Install Hammerspoon
 Download the latest release [here](https://github.com/Hammerspoon/hammerspoon/releases/), extract the app to `Applications` folder.
@@ -24,8 +30,21 @@ Right click Hammerspoon application then `Open`, press `Shift + Cmd + R` to relo
 Now, you can navigate with `Ctrl + J`, `Ctrl + K` in Preview, Slack, etc, enjoy your journey to Hammer-vim.
 
 ## Features
-* Move up: `Ctrl + K`
+
+### Vim like commands
 * Move down: `Ctrl + J`
+* Move up: `Ctrl + K`
+* Move Left `Ctrl + H`
+* Move Right `Ctrl + L`
+
+_TODO:_
+
+- [ ] Search
+- [ ] Select
+- [ ] Insert 
+
+### Utility commands
+* Show current time: `Ctrl + Shift + T`
 
 ## Design thoughts
 ### `Ctrl` as primary key
